@@ -6,20 +6,27 @@
 *-tmp.html
 .project
 .classpath
+.METADATA
 .settings
+git-modified-list.txt
 nbbuild.xml
 properties/
 
 /*.ipr
 /*.iws
 /*.patch
-/build.*.properties
+build.*.properties
 
-**/build/**
-**/classes/**
-**/dist/**
+build/
+classes/
+dist/
 **nbproject**
-**/.ivy/*
-**/.sass-cache/**
+.ivy/
+.sass-cache/
+.DS_Store/
 *#
-/bin
+/develop/tutorials/code/osgi/modules/form-nav-extension-portlet/.nb-gradle/
+/develop/tutorials/code/osgi/modules/com.liferay.docs.greetingimpl/.nb-gradle/
+/develop/tutorials/code/osgi/modules/com.liferay.docs.greetingapi/.nb-gradle/
+/develop/tutorials/code/osgi/modules/com.liferay.docs.greetingcommand/.nb-gradle/
+**/temp/**
